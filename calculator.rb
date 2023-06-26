@@ -20,7 +20,7 @@ def simple_calculator
         product = first_number*second_number
         return product
     else
-        return "enter correct operand"
+        return "enter correct operation"
     end
 
 end
