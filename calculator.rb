@@ -7,9 +7,7 @@ def simple_calculator
     second_number = second_input.to_f
     print "Choose the operation you would like to perform +,-,/,*: "
     operand = $stdin.gets.chomp
-    if second_number.class != Float or first_number.class != Float
-         return "Please enter correct format of numbers"
-    elsif operand == "+"
+    if operand == "+"
         sum = first_number + second_number
         return sum
     elsif operand == "-"
